@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const PortfolioPage = (props) =>  {
-  console.log(props);
-  return (
+const PortfolioPage = () =>  (
   <div>
-    <h1>This is my Portfolio Portfolio Page</h1>
-    <p>Here i can show you my {props.match.params.id} item</p>
+    <h1>My Work</h1>
+    <p>Here is a list of my projects:</p>
+    <Link to="/portfolio/1">Item one</Link>
+    <Link to="/portfolio/2">Item two</Link>
   </div>
   );
-};
 
 export default PortfolioPage;

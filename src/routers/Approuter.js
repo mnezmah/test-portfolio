@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import NotFoundPage from '../components/NotFoundPage';
 import HomePage from '../components/HomePage';
 import PortfolioPage from '../components/PortfolioPage';
+import PortfolioItemPage from '../components/PortfolioItemPage';
 import ContactPage from '../components/ContactPage';
 
 const AppRouter = () => (
@@ -13,7 +14,8 @@ const AppRouter = () => (
       <Switch>
       <Route path="/" component={HomePage} exact />
       <Route path="/contact" component={ContactPage} />
-      <Route path="/portfolio" component={PortfolioPage}/>
+      <Route path="/portfolio/:id" component={PortfolioItemPage}/>
+      <Route path="/portfolio" component={PortfolioPage} exact/>
       <Route component={NotFoundPage} />
       </Switch>
     </div>
