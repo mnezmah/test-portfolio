@@ -1,6 +1,6 @@
-# EXPENSIFY APP
+# Test-portfolio 
 
-React App that is build throughout the course ["The Complete React Web Developer Course (with Redux) by Andrew Mead"](https://www.udemy.com/react-2nd-edition/)
+Little React ewxercise from the course ["The Complete React Web Developer Course (with Redux) by Andrew Mead"](https://www.udemy.com/react-2nd-edition/)
 
 ## Preset
 Need to install [Node.js](https://nodejs.org/en/)  with [NPM](https://www.npmjs.com/get-npm)
